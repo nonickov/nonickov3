@@ -204,7 +204,7 @@
             const name = nameInput.value.trim();
             if (name) {
                 const codedName = (name);
-                const url = `${window.location.origin}?name=${codedName}`;
+                const url = `https://nonickov.github.io/nonickov3/?name=${codedName}`;
                 personalizeMessage(name);
                 document.getElementById('greetingLink').href = url;
                 document.getElementById('greetingLink').textContent = url;
